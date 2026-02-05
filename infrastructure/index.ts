@@ -91,7 +91,7 @@ const containerGroup = new containerinstance.ContainerGroup(
           },
           {
             name: 'WEATHER_API_KEY',
-            value: '48173c124c98c2252369ee8343de8b0f',
+            value: config.requireSecret('weatherApiKey')
           },
             {
              name: 'REDIS_URL',

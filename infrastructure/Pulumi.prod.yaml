@@ -5,5 +5,7 @@ config:
   cst8918-a03-infra:publicPort: '80'
   cst8918-a03-infra:cpu: '1'
   cst8918-a03-infra:memory: '2'
-  cst8918-a03-infra:prefixName: 'cst8918a03murp0428'
+  cst8918-a03-infra:prefixName: 'cst8918a03murp'
   cst8918-a03-infra:imageTag: 'v0.2.0'
+  cst8918-a03-infra:weatherApiKey:
+    secure: AAABACp6QTBX5H1VVYehKI3tHWioRRIaa3O/3h6cunqCcNQIXhYI1s5kpxptwxFiJPf2JtINRoT1+P8kN4gN8Q==
